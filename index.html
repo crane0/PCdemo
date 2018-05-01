@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开机动画</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <section id="wrap">
+        <!--开机动画，完成后DOM节点要删除-->
+        <section id="open">
+            <div class="up"></div>
+            <div class="down"></div>
+            <div class="line"></div>
+        </section>
+
+
+        <!--头部开始-->
+        <!--header是流体，div是固定容器-->
+        <header id="head">
+            <div class="headMain">
+                <!--logo-->
+                <h1 class="logo">
+                    <a href="javascript:;">
+                        <img src="img/logo.png">
+                    </a>
+                </h1>
+                <!--音频-->
+                <div class="music">
+                    <audio src="img/god.mp3" loop></audio>
+                </div>
+                <!--导航-->
+                <nav class="nav">
+                    <ul class="list clearfix">
+                        <li>
+                            <a href="javascript:;">
+                                <div class="up">
+                                    <img src="img/home_gruen.png">
+                                </div>
+                                <div class="down">
+                                    <img src="img/home.png">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="up">course</div>
+                                <div class="down">course</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="up">Works</div>
+                                <div class="down">Works</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="up">About</div>
+                                <div class="down">About</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="up">Team</div>
+                                <div class="down">Team</div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--箭头-->
+                <div class="arrow"></div>
+            </div>
+        </header>
+        <!--头部结束-->
+
+
+        <!--内容区开始-->
+        <section id="content">
+            <ul class="list">
+                <!--第1屏-->
+                <li>
+                    <div>
+                        <ul class="home1">
+                            <li class="active">
+                                <div class="commonTitle">One</div>
+                            </li>
+                            <li>
+                                <div class="commonTitle">Two</div>
+                            </li>
+                            <li>
+                                <div class="commonTitle">Three</div>
+                            </li>
+                            <li>
+                                <div class="commonTitle">Four</div>
+                            </li>
+                        </ul>
+                        <ul class="home2">
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </li>
+                <!--第2屏-->
+                <li>
+                    <div>
+                        <header class="course1 commonTitle">
+                            <span>EINIGE</span><br>
+                            <span>UNSERER</span><br>
+                            <span>KUNDEN</span><br>
+                        </header>
+                        <div class="course2 commonText">
+                            <p>Das Kundenvertrauen in unsere Kompetenz ist die notwendige Basis einer erfolgreichen Zusammenarbeit, gleichzeitig aber auch das größte Lob, das man uns entgegenbringen kann. </p>
+                            <p>Diese und viele weitere große und kleine Kunden vertrauen uns seit Jahren, was uns stolz macht, und dafür sagen wir an dieser Stelle einfach mal.</p>
+                        </div>
+                        <div class="course3">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                            <div class="photo">
+                                <div class="back">第一个文字123456789</div>
+                                <div class="front"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plane">
+                        <div class="plane1"></div>
+                        <div class="plane2"></div>
+                        <div class="plane3"></div>
+                    </div>
+                </li>
+                <!--第3屏-->
+                <li>
+                    <div>
+                        <header class="works1 commonTitle">
+                            <span>EINBLICK</span><br>
+                            <span>ERKENNTNIS</span><br>
+                            <span>ERGEBNIS</span><br>
+                        </header>
+
+                        <ul class="works2 clearfix">
+                            <li>
+                                <img src="img/worksimg1.jpg">
+                                <div class="mask">
+                                    <span>111111111111111</span>
+                                    <div class="icon"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/worksimg2.jpg">
+                                <div class="mask">
+                                    <span>22222222</span>
+                                    <div class="icon"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/worksimg3.jpg">
+                                <div class="mask">
+                                    <span>3333333333</span>
+                                    <div class="icon"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/worksimg4.jpg">
+                                <div class="mask">
+                                    <span>444444444444444</span>
+                                    <div class="icon"></div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <div class="works3"></div>
+
+                    </div>
+                    <div class="pencil">
+                        <div class="pencil1"></div>
+                        <div class="pencil2"></div>
+                        <div class="pencil3"></div>
+                    </div>
+                </li>
+                <!--第4屏-->
+                <li>
+                    <div>
+                        <header class="about1 commonTitle">
+                            <span>DIE</span><br>
+                            <span>SPEZIELLE</span><br>
+                            <span>VIELFALT</span>
+                        </header>
+                        <div class="about2">
+                            <p class="commonText">Der bunte Medienmix ist die Faszination die uns antreibt und das, was man an uns schätzt. Von A bis Z und von vorne bis hinten nehmen wir Ihr Projekt unter unsere Fittiche und lassen es zu etwas Großartigem heranwachsen.</p>
+                        </div>
+                        <div class="about3">
+                            <div>
+                                <span></span>
+                                <ul data-src="img/about1.jpg"></ul>
+                            </div>
+                            <div>
+                                <span></span>
+                                <ul data-src="img/about3.jpg"></ul>
+                            </div>
+                        </div>
+                        <div class="about4"></div>
+                    </div>
+                </li>
+                <!--第5屏-->
+                <li>
+                    <div>
+                        <header class="team1 commonTitle">
+                            <span>WIR SIND</span><br>
+                            <span>VOXELAIR</span>
+                        </header>
+                        <div class="team2">
+                            <p class="commonText">Wir sind seit 2002 eine Full-Service-Werbeagentur mit Stammsitz in Heimsheim, zwischen Stuttgart und Karlsruhe.</p>
+                            <p class="commonText">Über 60 Jahre Erfahrung vereinen das gesamte VoxelAir-Team. Dabei hat jedes Voxel neben professionellem Allroundwissen auch sein ganz spezielles Gebiet, um selbst die individuellsten Kundenwünsche schnell und kompetent umzusetzen.</p>
+                        </div>
+                        <div class="team3">
+                            <ul class="clearfix">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="dot">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <!--内容区结束-->
+    </section>
+    <script src="sea/sea.js"></script>
+    <script>
+        window.onload = function () {
+
+            var home1 = document.querySelector('#content > .list > li:nth-child(1) > div > .home1');
+
+            var headMusic = document.querySelector('#head > .headMain > .music');
+            var audio = document.querySelector('#head > .headMain > .music > audio');
+
+
+//            音频
+            headMusic.onclick = function () {
+                if(audio.paused){
+                    audio.play();
+                    headMusic.style.background ="url(img/musicon.gif)";
+                }else{
+                    audio.pause();
+                    headMusic.style.background ="url(img/musicoff.gif)";
+                }
+            };
+
+//            第5屏
+            seajs.use('./js/screen_V.js',function(screen_V){
+                screen_V.biubiu();
+            });
+
+//            第4屏
+            seajs.use('./js/screen_IV.js',function(screen_IV){
+                screen_IV.picBoom();
+            });
+
+//            开机动画
+            seajs.use('./js/openAnimation.js',function(openAnimation){
+                openAnimation.openAnimation();
+            });
+
+//            这里，第一屏的动画，会在开机动画完成之后，自动执行，这里就不需要再次调用了。
+//            第1屏
+//            seajs.use('./js/screen_I.js',function(screen){
+//                screen.home3D();
+//            });
+
+//            出入场动画
+            seajs.use('./js/arrAnimation.js',function(arrAnimation){
+                arrAnimation.inOut();
+            });
+//            头部及内容区布局
+            seajs.use('./js/head.js',function(head){
+                head.headBind();
+                head.gun();
+                head.contentBind();
+                head.resize();
+            });
+        }
+    </script>
+</body>
+</html>
